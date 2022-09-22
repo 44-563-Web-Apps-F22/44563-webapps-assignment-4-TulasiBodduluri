@@ -38,3 +38,48 @@ speech {
     font-size: larger ;
     font-style: initial;
 }
+table, td, th {
+    border: solid 1px ;
+    color: darkblue;
+    margin: 40px;
+    padding: 8px;
+    row-gap: 3px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color:darkorange;
+}
+.ALL:hover {
+   text-shadow: 2px 2px 8px RED;
+   border-style: solid;
+}
+.SAMUEL:hover{
+    text-shadow: 2px 2px 8px blue;
+    border-style: groove;
+}
+.KING:hover{
+    text-shadow: 2px 2px 8px violet;
+    border-style: ridge;
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left;
+    background-color:palevioletred;
+}
+ul.navbar-horizontal a{
+    color:black;
+    display:block;
+    padding:15px;
+    margin:10px;
+}
+ul.navbar-horizontal a:hover{
+    background-color:rgb(129, 96, 196);
+    color:rgb(120, 235, 235);
+}
+.icon{
+    float: left;
+}
