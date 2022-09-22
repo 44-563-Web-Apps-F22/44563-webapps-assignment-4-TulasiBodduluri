@@ -1,0 +1,40 @@
+speech {
+    font-style: initial;
+    font-size: large;
+    color: black;
+}
+
+.song {
+    font-style: oblique;
+    font-size: large;
+    color: black;
+}
+
+.direction {
+    font-style: italic;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.direction:hover {
+    background-color:blueviolet;
+    color: brown;
+}
+
+.ALL {
+    color: black;
+    font-size: larger;
+    font-style: initial;
+}
+
+.SAMUEL {
+    color: black;
+    font-size : larger;
+    font-style: initial;
+}
+.KING {
+    color: black;
+    font-size: larger ;
+    font-style: initial;
+}
